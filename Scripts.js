@@ -1,5 +1,9 @@
 var anotherS= prompt("do you want anorther series ? (Y) or (N)");
-anotherS.toUpperCase();
+
+var yorn=anotherS.toUpperCase();
+
+console.log(yorn);
+
 console.log(anotherS);
 
 var div= document.getElementById('x');
