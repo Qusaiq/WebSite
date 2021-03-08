@@ -1,20 +1,10 @@
-var anotherS= prompt("do you want anorther series ? (Y) or (N)");
+let anotherS= prompt("do you want anorther series ? (Y) or (N)");
 
 var yorn=anotherS.toUpperCase();
-
-console.log(yorn);
-
-console.log(anotherS);
-
 var div= document.getElementById('x');
-while(anotherS !='Y' && anotherS != 'N')
-{
-    anotherS= prompt("do you want anorther series ? (Y) or (N)");
-}
-
 var img='';
 var N_S;
-if (anotherS == "Y")
+if (yorn == "Y")
 {
      N_S= prompt("Choose (1-GoT(Game of thrones) ,2-(The 100) ,3-(Lost) ) ");
      console.log(N_S);

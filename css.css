@@ -1,0 +1,59 @@
+body {
+    background-color: #F27E63;
+}
+h1{ 
+  text-align:center;
+  color:rgb(35, 44, 53);
+  font-size: 35px;
+    
+}
+header{
+    padding: 30px;
+  background: #1abc9c;
+  border-radius: 10px; 
+}
+.series-names{
+    text-align: justify;
+    color: #250D6D;
+}
+
+footer { border-radius: 25px;
+    height:50px ;
+}.corner {
+    border-radius: 25px;
+    height:50px ;
+    background-color: #1abc9c;
+}
+.series{
+    text-align: justify;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+#Pop{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    color:whitesmoke;
+    text-shadow: 2px 4px #000000;
+}
+#partner{
+    text-align: center;
+    font-size: 25px;
+
+}
+img{
+    align: center;
+    width: 1000px;
+    height: 600px;
+}
+.links{
+    font-size: large;
+    position: relative;
+}
+#x{
+    padding-left: 40px;
+    
+}
